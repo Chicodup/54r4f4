@@ -14,10 +14,10 @@
    <string>MainWindow</string>
   </property>
   <property name="styleSheet">
-   <string notr="true"> background:orange;</string>
+   <string notr="true"> background:black;</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QListWidget" name="listWidget">
+   <widget class="QListWidget" name="image_list">
     <property name="geometry">
      <rect>
       <x>10</x>
@@ -28,13 +28,14 @@
     </property>
     <property name="styleSheet">
      <string notr="true">border:2px solid rgb(85, 255, 0);
-border-radius: 10px;</string>
+border-radius: 10px;
+background:orange;</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton">
+   <widget class="QPushButton" name="papka_btn">
     <property name="geometry">
      <rect>
-      <x>0</x>
+      <x>10</x>
       <y>10</y>
       <width>191</width>
       <height>31</height>
@@ -42,13 +43,14 @@ border-radius: 10px;</string>
     </property>
     <property name="styleSheet">
      <string notr="true">border:2px solid rgb(85, 255, 0);
-border-radius: 10px;</string>
+border-radius: 10px;
+background:orange;</string>
     </property>
     <property name="text">
      <string>папка</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label">
+   <widget class="QLabel" name="image_label">
     <property name="geometry">
      <rect>
       <x>210</x>
@@ -61,7 +63,7 @@ border-radius: 10px;</string>
      <string>Картинка</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_3">
+   <widget class="QPushButton" name="left_btn">
     <property name="geometry">
      <rect>
       <x>210</x>
@@ -72,13 +74,14 @@ border-radius: 10px;</string>
     </property>
     <property name="styleSheet">
      <string notr="true">border:2px solid rgb(85, 255, 0);
-border-radius: 10px;</string>
+border-radius: 10px;
+background:orange;</string>
     </property>
     <property name="text">
      <string>Ліворуч</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_7">
+   <widget class="QPushButton" name="right_btn">
     <property name="geometry">
      <rect>
       <x>310</x>
@@ -89,13 +92,14 @@ border-radius: 10px;</string>
     </property>
     <property name="styleSheet">
      <string notr="true">border:2px solid rgb(85, 255, 0);
-border-radius: 10px;</string>
+border-radius: 10px;
+background:orange;</string>
     </property>
     <property name="text">
      <string>Праворуч</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_4">
+   <widget class="QPushButton" name="mirror_btn">
     <property name="geometry">
      <rect>
       <x>420</x>
@@ -106,13 +110,14 @@ border-radius: 10px;</string>
     </property>
     <property name="styleSheet">
      <string notr="true">border:2px solid rgb(85, 255, 0);
-border-radius: 10px;</string>
+border-radius: 10px;
+background:orange;</string>
     </property>
     <property name="text">
      <string>Дзеркало</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_5">
+   <widget class="QPushButton" name="sharp_btn">
     <property name="geometry">
      <rect>
       <x>530</x>
@@ -123,13 +128,14 @@ border-radius: 10px;</string>
     </property>
     <property name="styleSheet">
      <string notr="true">border:2px solid rgb(85, 255, 0);
-border-radius: 10px;</string>
+border-radius: 10px;
+background:orange;</string>
     </property>
     <property name="text">
      <string>Різкість</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_6">
+   <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
       <x>640</x>
@@ -140,7 +146,8 @@ border-radius: 10px;</string>
     </property>
     <property name="styleSheet">
      <string notr="true">border:2px solid rgb(85, 255, 0);
-border-radius: 10px;</string>
+border-radius: 10px;
+background:orange;</string>
     </property>
     <property name="text">
      <string>Ч/Б</string>
